@@ -48,12 +48,15 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 ## Challenges
 1. Get a Gemini `API KEY` from [Google AI Studio](https://aistudio.google.com/apikey)
 1. Create system prompt
+1. Initilize Gemini
 1. Declare functions
-1. Send prompt and include image
+1. Send text or image content to the model
+1. Process model response
 1. Register transaction
 
 ## Homework
 1. Refactor `extractData`to get `functionCall.name` and invoke the function passing the `functionCall.args`
+1. Create a function and its declaration to allow the Gemini model obtaining the current date and time
 1. Add persistent storage for transactions. [Firestore](https://firebase.google.com/docs/firestore/quickstart) may be a nice option
 
 ## Resources
