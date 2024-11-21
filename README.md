@@ -9,7 +9,7 @@ You'll leverage Gemini's function calling and multimodal features to automatical
 ### App featutes
 - Register transaction by picture
 - Register transaction by text prompt
-- Use functional calling to receive the transaction data
+- Use function calling to receive the transaction data
 
 ## What you will learn?
 - **Gemini Basics**: How to integrate your app with Gemini AI SDK.
@@ -30,6 +30,7 @@ You'll leverage Gemini's function calling and multimodal features to automatical
 
 ### Environment file
 ```properties
+# .env
 GEMINI_API_KEY=[YOUR GEMINI API KEY]
 ```
 
@@ -43,7 +44,7 @@ npm run dev
 ### Your are all set
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the code under `src/`. The page auto-updates as you edit any the file.
 
 ## Challenges
 1. Get a Gemini `API KEY` from [Google AI Studio](https://aistudio.google.com/apikey)
@@ -56,7 +57,7 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 ## Homework
 1. Refactor `extractData`to get `functionCall.name` and invoke the function passing the `functionCall.args`
-1. Create a function and its declaration to allow the Gemini model obtaining the current date and time
+1. Create a function and its declaration to allow the Gemini model obtaining the current date and time. See an example [here](https://github.com/carboleda/gemini-function-calling-examples/tree/main/1.intro)
 1. Add persistent storage for transactions. [Firestore](https://firebase.google.com/docs/firestore/quickstart) may be a nice option
 
 ## Resources
