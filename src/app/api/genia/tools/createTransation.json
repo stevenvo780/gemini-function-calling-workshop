@@ -1,0 +1,32 @@
+{
+  "name": "createTransaction",
+  "description": "Creates a transaction that can be an income, expense or transfer",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "description": {
+        "type": "string"
+      },
+      "amount": {
+        "type": "number"
+      },
+      "type": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "sourceAccount": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "description",
+      "amount",
+      "category"
+    ]
+  }
+}
